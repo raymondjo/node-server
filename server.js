@@ -25,9 +25,9 @@
      console.log(log);
      next();
  });
- app.use((req, res, next) => {
-     res.render('maintenance.hbs');
- });
+ //  app.use((req, res, next) => {
+ //      res.render('maintenance.hbs');
+ //  });
  app.get('/', (req, res) => {
      //  res.send('<h1>hello express!</h1>');
      //  res.send({
